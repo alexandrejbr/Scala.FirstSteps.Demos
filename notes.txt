@@ -1,0 +1,24 @@
+The rule of thumb is that a parameterless method that doesn’t modify the object has no parentheses.
+
+a method b ===> a.method(b)
+
+=== factorial ===
+
+def factorial(n: BigInt): BigInt =
+	if(n == 0) 1 else n * factorial(n -1)
+
+=== tail recursive factorial ===
+
+def factorialTR(n: BigInt): BigInt = {
+	def loop(acc: BigInt, n: BigInt) : BigInt =
+		if(n == 0) acc else loop(acc * n,  n - 1)
+	loop(1,n)
+}
+
+=== About Functional Programming ===
+
+Functional programming is guided by two main ideas. The first idea is that functions are first-class values.
+
+The second main idea of functional programming is that the operations of a program should map input values to output values rather than change data in place. 
+
+Another way of stating this second idea of functional programming is that methods should not have any side effects.
