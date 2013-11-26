@@ -1,0 +1,19 @@
+Scala First Steps
+
+- Why Scala?
+	- Scala Programs compile to JVM bytecodes;
+	- Concise
+		- Type inference
+	- Functional programming language
+	- Statically typed programming language
+	- High order functions
+		- And lambdas
+
+- Recursion
+	- Scala optimize tail recursive functions
+- Classes
+	- concise style
+- Tuples
+
+- Lists
+	- Simple samples
