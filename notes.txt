@@ -22,3 +22,6 @@ Functional programming is guided by two main ideas. The first idea is that funct
 The second main idea of functional programming is that the operations of a program should map input values to output values rather than change data in place. 
 
 Another way of stating this second idea of functional programming is that methods should not have any side effects.
+
+
+"=_" generates a setter (section 18.2)
