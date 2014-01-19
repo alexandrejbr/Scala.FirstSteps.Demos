@@ -1,0 +1,24 @@
+Compiled from "primitivetypes.scala"
+public final class PrimitiveTypesTests$ {
+  public static final PrimitiveTypesTests$ MODULE$;
+
+  public static {};
+    Code:
+       0: new           #2                  // class PrimitiveTypesTests$
+       3: invokespecial #12                 // Method "<init>":()V
+       6: return
+
+  public void main(java.lang.String[]);
+    Code:
+       0: iconst_1
+       1: istore_2
+       2: iload_2
+       3: iconst_1
+       4: iadd
+       5: istore_3
+       6: getstatic     #19                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+       9: iload_3
+      10: invokestatic  #25                 // Method scala/runtime/BoxesRunTime.boxToInteger:(I)Ljava/lang/Integer;
+      13: invokevirtual #29                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+      16: return
+}
